@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+
+#plus, #minus{
+    width: 70px;
+    height: 50px;
+}
+
+#counter{
+    border: 2px solid black;
+    margin: 15px auto;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}

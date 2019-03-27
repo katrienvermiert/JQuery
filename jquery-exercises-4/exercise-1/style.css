@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-left: -40px;
+    color: black;
+}
+
+
+#play{
+    background-color: rgb(90, 170, 90);
+    width: 70px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+#result {
+    margin-top: 20px;
+}
+
