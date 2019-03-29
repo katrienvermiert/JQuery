@@ -8,17 +8,29 @@
 <body>
     
     <h2>Salary calculator</h2>
-    <div class="container">
-        <form action="">
-            Salary: <input type="text">
-            <br>
-            Gender: <input type="text">
-            <br>
-            Children: <input type="text">
-        </form>
-    </div>
-    
    
+        <form>
+            Salary: <input id="sal" type="number">
+            <select id="gen">
+                <option value="">Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <select id="child">
+                <option value="0">children</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <button id="calc">Calculate</button>$
+<!-- button type is by default "submit" and refreshes automatically
+     always mention the type; f.e. type="button" -->
+            <div id="output"></div>
+            
+        </form>
+
 
   <script src="jquery-2.2.4.js"></script>
   <script src="main.js"></script>
